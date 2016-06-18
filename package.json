@@ -1,0 +1,30 @@
+{
+  "name": "toggle-to-jira-chrome-extension",
+  "version": "1.0.0",
+  "description": "Converts Toggl time entries to *log work* on corresponding Jira tasks",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon-chrome": "^0.2.0",
+    "lite-server": "^2.1.0",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7",
+    "typescript": "^1.7.5"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandoncazander/Toggl-to-Jira-Chrome-Extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandoncazander/Toggl-to-Jira-Chrome-Extension/issues"
+  },
+  "homepage": "https://github.com/brandoncazander/Toggl-to-Jira-Chrome-Extension#readme"
+}
